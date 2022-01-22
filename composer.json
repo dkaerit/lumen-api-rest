@@ -16,8 +16,11 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "App\\Http\\Controllers\\": ["app/Http/Controllers", "routes/controllers/"],
-            "App\\Http\\Middlewares\\": ["app/Http/Middleware", "routes/middlewares/"],
+            "App\\Exceptions\\": ["app/Exceptions", "symfony/"],
+            "App\\Models\\": ["app/Models/", "src/models/"],
+            "App\\Providers\\": ["app/Providers", "src/providers/"],
+            "App\\Http\\Controllers\\": ["app/Http/Controllers/", "src/routes/controllers/"],
+            "App\\Http\\Middlewares\\": ["app/Http/Middleware/", "src/middlewares/"],
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }

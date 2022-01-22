@@ -109,7 +109,7 @@ $app->configure('app');
 $app->router->group([
     'namespace' => 'App\Http\Controllers',
 ], function ($router) {
-    require __DIR__.'/../routes/indexRoute.php';
+    require __DIR__.'/routes/indexRoute.php';
 });
 
 return $app;
